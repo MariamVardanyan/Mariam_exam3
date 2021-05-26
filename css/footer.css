@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    position: relative;
+    height: 30vh;   
+    background-color:  #0F0F0F; 
+    font-family: Playfair Display;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.footer .our_plans{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}

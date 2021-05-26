@@ -1,0 +1,20 @@
+.collections
+  .collection.part1
+    .season СЕЗОН 2020/21
+        .line
+    .watches    
+        mixin picture(path, brand , cost)
+            .item
+                img(src=path)
+                p.brand= brand
+                p.cost= cost
+        +picture('../image/watch.png','Louis XVI ATHOS','165 000 руб.')
+        +picture('../image/watch.png','Louis XVI ATHOS','165 000 руб.')
+        +picture('../image/watch.png','Louis XVI ATHOS','165 000 руб.')
+  .collection.part2
+    .new_collection Новая коллекция
+    .line 
+    .catalog Каталог
+
+
+

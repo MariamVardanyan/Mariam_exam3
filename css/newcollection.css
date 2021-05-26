@@ -1,0 +1,55 @@
+.wrapper .newcollections{
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+}
+
+.newcollections .newcollection{
+    width: 55%;
+    height: 88vh;
+    justify-content: center;
+    align-items: center ;
+}
+
+.newcollections .season{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 20px;
+}
+
+.newcollection .line{
+    height: 5px;
+    width: 15%;
+    background-color: #FFFFFF;
+    margin: 25px auto;
+}
+
+.newcollection .watches{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.newcollection .watches .item{
+    width: 24%;
+}
+.newcollection .watches .item>img{
+    background-color: #191B1C;
+    margin: 25px;
+}
+
+.newcollection .watches .item>p{
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+
+
